@@ -7,8 +7,8 @@ require('dotenv').config()
 //Initalizes express server
 const app = express();
 
-//specifies what port to run the server on 
-const PORT = process.env.PORt || 3001;
+//specifies what port to run the server on ||3001;
+const PORT = process.env.PORT 
 
 //Adds json parsing middleware to incoming request
 app.use(express.json());
